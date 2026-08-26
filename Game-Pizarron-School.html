@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>📖 Unit 1 My School Supplies</title>
+<title>📖 Unit 2 My Community </title>
 <style>
   body {
     margin: 0;
@@ -246,10 +246,10 @@
 
 <div class="book" id="book">
   <div class="cover" id="cover">
-    <h1>📖 Unit 1 My School Supplies </h1>
+    <h1>📖 Unit 2 My Community </h1>
     <p style="color:#2c3e50;">Click to start your creative journey 🎨✨</p>
     <button onclick="openBook()">Start Game</button>
-    <img src="osito.png" alt="teddy bear" class="cover-teddy">
+    <img src="gatito.png" alt="teddy bear" class="cover-teddy">
   </div>
 
   <div class="left-page">
@@ -280,21 +280,21 @@
     <p id="finalMessage" style="color:#2c3e50; font-size:1.2em; margin-bottom:15px;"></p>
     <div class="gallery" id="gallery"></div>
     <button class="play-again" onclick="restartBook()">🔄 Play Again</button>
-    <img src="osito.png" alt="teddy bear" class="final-teddy">
+    <img src="gatito.png" alt="teddy bear" class="final-teddy">
   </div>
 </div>
 
 <script>
 const emotions = [
-  { name: "boy", img: "boy2.jpg", text: "Click and draw a boy. 💛", audio: "boy.mp3" },
-  { name: "girl", img: "girl2.jpg", text: "Click and draw a girl. 💙",  audio: "girl.mp3" },
-  { name: "goodbye", img: "goodbye2.jpg", text: "Click and draw a goodbye. ❤️",  audio: "goodbye.mp3" },
-  { name: "hello", img: "hello1.jpg", text: "Click and draw a hello. 💜",  audio: "hello.mp3" },
-  { name: "teacher", img: "teacher2.jpg", text: "Click and draw a teacher. 💚",  audio: "teacher.mp3" },
-  { name: "books", img: "book2.jpg", text: "Click and draw a books. 🍽️",  audio: "books.mp3" },
-  { name: "chair", img: "chair2.jpg", text: "Click and draw a chair. 🤝",  audio: "chair.mp3" },
-  { name: "table", img: "table2.jpg", text: "Click and draw a table. 🧸",  audio: "table.mp3" },
-  { name: "crayon", img: "crayons2.jpg", text: "Click and draw a crayon. 🎲",  audio: "crayons.mp3" }
+  { name: "fire station", img: "fire-station2.jpg", text: "Click and draw a fire station. 💛", audio: "fire station.mp3" },
+  { name: "hospital", img: "hospital2.jpg", text: "Click and draw a hospital. 💙",  audio: "hospital.mp3" },
+  { name: "park", img: "park2.jpg", text: "Click and draw a park. ❤️",  audio: "park.mp3" },
+  { name: "police station", img: "police-station2.jpg", text: "Click and draw a police station. 💜",  audio: "police station.mp3" },
+  { name: "restaurant", img: "restaurant2.jpg", text: "Click and draw a restaurant. 💚",  audio: "restaurant.mp3" },
+  { name: "supermarket", img: "supermarket2.jpg", text: "Click and draw a supermarket. 🍽️",  audio: "supermarket.mp3" },
+  { name: "fire fighter", img: "fire-fighter2.jpg", text: "Click and draw a fire fighter. 🤝",  audio: "fire fighter.mp3" },
+  { name: "police officer", img: "police-officer2.jpg", text: "Click and draw a police officer. 🧸",  audio: "police officer.mp3" },
+  { name: "dinosaur", img: "dinosaur2.jpg", text: "Click and draw a dinosaur. 🎲",  audio: "dinosaur.mp3" }
 ];
 
   function playAudio(src) {
